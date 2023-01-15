@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "first-project-77355": {
+      "hosting": {
+        "github-login-firebase": [
+          "first-project-77355"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "first-project-77355"
+  }
+}
