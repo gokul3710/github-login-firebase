@@ -22,17 +22,8 @@ import { SignupComponent } from './pages/signup/signup.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
-
-// import {AngularFireAuthModule} from '@angular/fire/auth'
-// import {AngularFireModule} from '@angular/fire'
-
-
-
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
-
-
-
 
 
 @NgModule({
