@@ -22,17 +22,17 @@ export class LoginComponent implements OnInit {
 
   }
 
-  onLoginSubmit(f: NgForm){
-    const {email,password} = f.form.value
-    this.auth.login(email,password)
-    .then((res)=>{
-      this.router.navigateByUrl('/')
-      this.toastr.success("Signup Succes")
-    })
-    .catch((err)=>{
-      console.log(err.message);
-      this.toastr.error("Signup Failed") 
-    })
-  }
+  // onLoginSubmit(f: NgForm){
+  //   const {email,password} = f.form.value
+  //   this.auth.login(email,password)
+  //   .then((res)=>{
+  //     this.router.navigateByUrl('/')
+  //     this.toastr.success("Signup Succes")
+  //   })
+  //   .catch((err)=>{
+  //     console.log(err.message);
+  //     this.toastr.error("Signup Failed") 
+  //   })
+  // }
 
 }
